@@ -1,0 +1,112 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    }
+    h1 {
+        font-family: "Comic Sans MS", "Comic Sans";
+    }
+    h3 {
+        padding: 10px;
+        background: linear-gradient(#AAA9AE, #616181, #AAA9AE);
+        font-family: arial;
+        color: #FFF;
+    }
+    p {
+        padding: 10px;
+        font-size: 12pt;
+    }
+    #wrapper {
+        width: 970px;
+        margin: auto;
+        background: radial-gradient(#6F5964, #1B0B0F);
+    }
+    .header {
+        width: 960px;
+        height: 50px;
+        padding: 5px 15px 10px 15px;
+        background: linear-gradient(#F1F1F1, #FFF);
+    }
+    .header p {
+        text-align: center;
+    }
+    .header a {
+        font-style: italic;
+        color: #000;
+    }
+    #name {
+        display: inline-block;
+    }
+    #subtitle {
+        margin-left: 470px;
+        display: inline-block;
+        text-align: right;
+    }
+    #subtitle span {
+        font-family: arial;
+        font-size: 14pt;
+        font-weight: bold;
+    }
+    #main_content {
+        width: 970px;
+        height: auto;
+        padding: 20px 0px 20px 20px;
+        background: radial-gradient(#6F5964, #1B0B0F);
+    }
+    #pic {
+        margin: 0px 0px 20px 0px;
+        display: inline;
+        position: absolute;
+    }
+    #pic img {
+        max-width: 457px;
+        border: 5px solid #BFBFBF;
+    }
+    #about {
+        margin: 0px 0px 20px 485px;
+        display: inline-block;
+        position: relative;
+        width: 465px;
+        height: 310px;
+        background: linear-gradient(to bottom right, #FEFEFE, #DACBD9);
+    }
+    #about a{
+        padding: 10px;
+        font-size: 12pt;
+        color: #000;
+    }
+    .subcontent {
+        margin: 0px 20px 10px 0px;
+        width: 300px;
+        height: 600px;
+        display: inline-block;
+        background: linear-gradient(to bottom right, #FEFEFE, #DACBD9);
+    }
+    .subcontent a{
+        margin: 5px 30% 5px 28%;
+        padding: 1px 0px 1px 0px;
+        height: 15px;
+        width: 40%;
+        display: inline-block;
+        background-color: #407D61;
+        color: #fff;
+        font-weight: bold;
+        font-size: 10pt;
+        text-align: center;
+        text-decoration: none;
+        box-shadow: 3px 3px 10px #000;
+        border-radius: 15px;
+        border: 1px solid #366751;
+    }
+    .preview {
+        max-width: 300px;
+    }
+    .tech {
+        max-width: 40px;
+        padding: 10px 0px 0px 13px;
+    }
+    .social {
+        max-width: 20px;
+        margin: 0px 2px -5px 2px;
+    }
